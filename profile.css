@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url('image/cat.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d7fd45;
+    padding: 10px 15px;
+    border-radius: 12px 12px 0 0;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .balance {
+    background-color: black;
+    color: #d7fd45;
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+  
+  .profile-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid #d7fd45;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  .top-icons {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  .top-icons i {
+    color: #d7fd45;
+    font-size: 24px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #d7fd45;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .profile-pic {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-pic img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  .info label {
+    display: block;
+    font-weight: bold;
+    color: #d7fd45;
+    margin: 8px 0 4px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d7fd45;
+    border-radius: 12px;
+    padding: 5px 10px;
+    background-color: #111;
+  }
+  
+  .input-group input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+  }
+  
+  .input-group i {
+    color: #d7fd45;
+  }
+  
+  .share-section {
+    margin-top: 20px;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .icons i {
+    color: #00f7ff;
+    cursor: pointer;
+  }
+  .logo1{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-left: 5px;
+  }
+  .logo2{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-left: 15px;
+  }
+  .logo3{
+    width: 30px;
+    height: auto;
+    display: block;
+    margin-left: 25px;
+  }
+
+  .save-button{
+    color: #fff;
+    background: linear-gradient(135deg, #ffd700, #FFA500);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .save-button:hover{
+    background: linear-gradient(135deg, #ffa500,#ff8c00);
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 600px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 800px;
+    }
+  }
